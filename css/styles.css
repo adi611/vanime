@@ -71,10 +71,10 @@ body, html {
   background-size: 70%;
 }
 .item-1{
-  background-image: url(/images/wallpapersden.com_eren-yeager-attack-on-titan_1280x960.jpg);
+  background-image: url(https://adi611.github.io/vanime/images/wallpapersden.com_eren-yeager-attack-on-titan_1280x960.jpg);
 }
 .item-2{
-  background-image: url(/images/wp6085094.jpg);
+  background-image: url(https://adi611.github.io/vanime/images/wp6085094.jpg);
 }
 .anc:hover{
   filter: brightness(120%);
