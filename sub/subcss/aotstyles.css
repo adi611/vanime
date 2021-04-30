@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+.carousel-item{
+    padding: 30%;
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%; */
+  }
+  iframe{
+      position: relative;
+      right: 50%;
+      width: 200%;
+      /* height: 100%; */
+      margin: auto;
+      z-index: 1;
+  }
+ 
+  
+  @media screen and (min-width: 900px){
+    iframe{
+        width: 100%;
+        right: 0;
+    }
+    #carouselExampleCaptions{
+        /* width: 70%; */
+        margin: auto;
+      }
+  }
+  

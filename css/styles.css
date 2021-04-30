@@ -1,0 +1,150 @@
+body, html {
+    height: 100%;
+    font-family: 'ubuntu';
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url('/images/levi.jpg');
+    background-color: #748A8B;
+    /* position: relative;
+    top: 50%; */
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: auto 100%;
+  }
+  
+  .navbar{
+    background-color: #151515;
+    font-family: 'Prompt';
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+  }
+  .nav-item{
+    padding: 0 18px;
+    /* font-size: 1.2rem; */
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+  }
+  /* .navbar-brand{
+    color: white;
+    font-size: 40px;
+    line-height: 4;
+  } */
+  .va{
+    width: 30px;
+  }
+  .big-h{
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 600;
+    /* font-size: 30px; */
+    color: white;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 18px;
+    background-color: black;
+    position: relative;
+    top: 20%;
+}
+#catalog{
+  background-color: #301b3f;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  border-top: 40px solid #301b3f;
+  color: white;
+}
+.carousel-item{
+  padding: 30%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+.item-1{
+  background-image: url(/images/wallpapersden.com_eren-yeager-attack-on-titan_1280x960.jpg);
+}
+.item-2{
+  background-image: url(/images/wp6085094.jpg);
+}
+.anc:hover{
+  filter: brightness(120%);
+}
+h2{
+  font-family: "ubuntu";
+  font-weight: 700;
+  /* font-size: 3rem; */
+  line-height: 1.5;
+}
+h5,p{
+  font-family: 'Prompt';
+  padding: 2px;
+  font-size: x-small;
+  background-color: black;
+  width: 40%;
+  margin: auto;
+  
+}
+h5{
+  font-weight: 700;
+}
+/* p{
+  padding: 10px;
+  background-color: black;
+} */
+.container-img{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+#upcoming{
+  background-color: #3c415c;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.container-item{
+  margin: 20px;
+  
+}
+.fa-envelope{
+  font-size: 1rem;
+  color: black;
+}
+#footer{
+  text-align: center;
+  padding-top: 8%;
+  background-color: #b4a5a5;
+}
+.footer-fas{
+  margin: 1.5%;
+  margin-bottom: 2%;
+}
+.footer-p{
+  /* color: #8f8f8f; */
+  font-size: small;
+  background-color: #b4a5a5;
+}
+@media screen and (min-width: 900px) {
+  /* #catalog{
+    height: 50px;
+  } */
+  .carousel-item{
+    padding: 15%;
+    background-size: 35%;
+  }
+  .container-item{
+    margin: 0;
+    margin-top: 70px;
+  }
+}
